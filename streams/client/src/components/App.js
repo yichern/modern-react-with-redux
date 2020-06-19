@@ -12,8 +12,7 @@ const App = () => {
     <div className="ui container">
       <BrowserRouter>
         <div>
-          <Header></Header>
-
+          <Header />
           <Route path="/" exact component={StreamList} />
           <Route path="/streams/new" exact component={StreamCreate} />
           <Route path="/streams/edit" exact component={StreamEdit} />
